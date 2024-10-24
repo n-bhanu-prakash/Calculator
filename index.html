@@ -4,6 +4,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Calculator</title>
+    <style>
+         @media (min-width: 430px) and (max-width: 530px){
+            .container>h1{
+                margin-top: 5rem;
+                margin-bottom: 0rem;
+            }
+            .card-section{
+                margin-top: 5rem;
+            }
+         }
+    </style>
     <!-- Favicon -->
      <link rel="shortcut icon" href="./asserts/calculator.png" type="image/x-icon">
     <!-- Bootstrap cdn -->
@@ -17,7 +28,7 @@
     <h1 class="text-center fw-bold">Hiii!<span class="text-primary">I am Calci</span></h1>
     <div class="row justify-content-center">
         <div class="col-12 col-md-6 col-lg-4">
-            <div class="card shadow p-3">
+            <div class="card card-section shadow p-3">
                 <div class="card-header d-flex justify-content-around align-items-center">
                     <!-- display -->
                     <input type="text" name="result" class="form-control result-display p-3" id="result" placeholder="0" readonly />
