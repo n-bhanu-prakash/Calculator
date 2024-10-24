@@ -30,10 +30,6 @@ document.addEventListener("keydown",(e)=>{
 
 })
 
-
-
-
-
 // Handiling both keyboard and mouse events
 function handleInput(input){
     if(input=="C"||input=="Delete"){
